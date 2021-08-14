@@ -1,72 +1,30 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@inproceedings{Ates:2019th,
+bibtex_show={true},
+abbr={SoCC},
+author = {Ates, Emre and Sturmann, Lily and Toslali, Mert and Krieger, Orran and Megginson, Richard and Coskun, Ayse K and Sambasivan, Raja R.}, 
+editor = {}, 
+title = {An automated, cross-layer instrumentation framework for diagnosing performance problems in distributed applications}, 
+booktitle = {An automated, cross-layer instrumentation framework for diagnosing performance problems in distributed applications}, 
+volume = {}, 
+publisher = {ACM}, 
+address = {New York, New York, USA}, 
+pages = {165-170}, 
+year = {2019}, 
+abstract = {Diagnosing performance problems in distributed applications is extremely challenging. A significant reason is that it is hard to know where to place instrumentation a priori to help diagnose problems that may occur in the future. We present the vision of an automated instrumentation framework, Pythia, that runs alongside deployed distributed applications. In response to a newly-observed performance problem, Pythia searches the space of possible instrumentation choices to enable the instru- mentation needed to help diagnose it. Our vision for Pythia builds on workflow-centric tracing, which records the order and timing of how requests are processed within and among a distributed application’s nodes (i.e., records their workflows). It uses the key insight that localizing the sources high perfor- mance variation within the workflows of requests that are ex- pected to perform similarly gives insight into where additional instrumentation is needed.}, 
+keywords = {}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{Kaynar2019,
+bibtex_show={true},
+author = {Kaynar, Emine Ugur and Abdi, Mania and Hajkazemi, Mohammad Hossein and Turk, Ata and Sambasivan, Raja R and Cohen, David and Rudolph, Larry and Desnoyers, Peter and Krieger, Orran}, 
+title = {D3n: A multi-layer cache for the rest of us}, 
+booktitle = {IEEE International Conference on Big Data (Big Data)}, 
+publisher = {IEEE}, 
+pages = {327-338}, 
+year = {2019}, 
+abstract = {Current caching methods for improving the performance of big-data jobs assume high (e.g., full bi-section) bandwidth; however many enterprise data centers and co-location facilities have large network imbalances due to over-subscription and incremental networking upgrades. We describe D3N, a multi-layer cooperative caching architecture that mitigates network imbalances by caching data on the access side of each layer of a hierarchical network topology, adaptively adjusting cache sizes of each layer based on observed workload patterns and network congestion. We have added (and submitted upstream) a 2-layer D3N cache to the Ceph RADOS Gateway; read bandwidth achieves the 5GB/s speed of our SSDs, and we show that it substantially improves big-data job performance while reducing network traffic.}, 
+keywords = {}
 }

@@ -50,7 +50,7 @@ papers (HotAC, NSDI, InfoVis, SoCC) influenced industrial tracing
 efforts, such as Jaeger's trace comparisons, and has been cited over
 350 times.
 
-In my spare time, I enjoy playing tennis, taking long walks, and
+In my spare time, I enjoy playing tennis taking long walks, and
 exploring New England.  I am "famous" for appearing in a
 [PhDComics](https://www.phdcomics.com/comics/archive.php?comicid=824)
 strip. In the strip, I ask CS PhD students to wear lab coats to work
