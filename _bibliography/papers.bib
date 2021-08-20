@@ -11,9 +11,10 @@ publisher = {IEEE},
 pages = {327-338}, 
 year = {2019}, 
 month = {December},
-abstract = {Current caching methods for improving the performance of big-data jobs assume high (e.g., full bi-section) bandwidth; however many enterprise data centers and co-location facilities have large network imbalances due to over-subscription and incremental networking upgrades. We describe D3N, a multi-layer cooperative caching architecture that mitigates network imbalances by caching data on the access side of each layer of a hierarchical network topology, adaptively adjusting cache sizes of each layer based on observed workload patterns and network congestion. We have added (and submitted upstream) a 2-layer D3N cache to the Ceph RADOS Gateway; read bandwidth achieves the 5GB/s speed of our SSDs, and we show that it substantially improves big-data job performance while reducing network traffic.}, 
-keywords = {}
-}
+abstract = {Current caching methods for improving the performance of big-data jobs assume high (e.g., full bi-section) bandwidth; however many enterprise data centers and co-location facilities have large network imbalances due to over-subscription and incremental networking upgrades. We describe D3N, a multi-layer cooperative caching architecture that mitigates network imbalances by caching data on the access side of each layer of a hierarchical network topology, adaptively adjusting cache sizes of each layer based on observed workload patterns and network congestion. We have added (and submitted upstream) a 2-layer D3N cache to the Ceph RADOS Gateway; read bandwidth achieves the 5GB/s speed of our SSDs, and we show that it substantially improves big-data job performance while reducing network traffic.},
+pdf={kaynar2019ab_paper.pdf},
+slides={kaynar2019ab_slides.pdf},
+keywords = {}}
 
 
 
@@ -28,8 +29,11 @@ publisher = {ACM},
 pages = {165-170}, 
 year = {2019}, 
 month = {November},
-abstract = {Diagnosing performance problems in distributed applications is extremely challenging. A significant reason is that it is hard to know where to place instrumentation a priori to help diagnose problems that may occur in the future. We present the vision of an automated instrumentation framework, Pythia, that runs alongside deployed distributed applications. In response to a newly-observed performance problem, Pythia searches the space of possible instrumentation choices to enable the instru- mentation needed to help diagnose it. Our vision for Pythia builds on workflow-centric tracing, which records the order and timing of how requests are processed within and among a distributed application’s nodes (i.e., records their workflows). It uses the key insight that localizing the sources high perfor- mance variation within the workflows of requests that are ex- pected to perform similarly gives insight into where additional instrumentation is needed.}, 
+abstract = {Diagnosing performance problems in distributed applications is extremely challenging. A significant reason is that it is hard to know where to place instrumentation a priori to help diagnose problems that may occur in the future. We present the vision of an automated instrumentation framework, Pythia, that runs alongside deployed distributed applications. In response to a newly-observed performance problem, Pythia searches the space of possible instrumentation choices to enable the instru- mentation needed to help diagnose it. Our vision for Pythia builds on workflow-centric tracing, which records the order and timing of how requests are processed within and among a distributed application’s nodes (i.e., records their workflows). It uses the key insight that localizing the sources high perfor- mance variation within the workflows of requests that are ex- pected to perform similarly gives insight into where additional instrumentation is needed.},
+pdf = {ates2019th_paper.pdf},
+slides = {ates2019th_slides.pdf},
 keywords = {}}
+
 
 
 @inproceedings{Sambasivan:2017jb,
@@ -43,7 +47,10 @@ publisher = {ACM},
 pages = {474-487}, 
 year = {2017}, 
 month = {August},
-abstract = {Abstract The Internet’s inter-domain routing infrastructure, provided today by BGP, is extremely rigid and does not facilitate the introduction of new inter-domain routing protocols. This rigidity has made it incredibly difficult to widely deploy critical fixes to BGP. It has also depressed ASes’; ability to sell value-added services or replace BGP entirely with a more sophisticated protocol. Even if operators undertook the significant effort needed to fix or replace BGP, it is likely the next protocol will be just as difficult to change or evolve. To help, this paper identifies two features needed in the routing infrastructure (i.e., within any inter-domain routing protocol) to facilitate evolution to new protocols. To understand their utility, it presents D-BGP, a version of BGP that incorporates them.}, 
+abstract = {Abstract The Internet’s inter-domain routing infrastructure, provided today by BGP, is extremely rigid and does not facilitate the introduction of new inter-domain routing protocols. This rigidity has made it incredibly difficult to widely deploy critical fixes to BGP. It has also depressed ASes’; ability to sell value-added services or replace BGP entirely with a more sophisticated protocol. Even if operators undertook the significant effort needed to fix or replace BGP, it is likely the next protocol will be just as difficult to change or evolve. To help, this paper identifies two features needed in the routing infrastructure (i.e., within any inter-domain routing protocol) to facilitate evolution to new protocols. To understand their utility, it presents D-BGP, a version of BGP that incorporates them.},
+pdf = {sambasivan2017jb_paper.pdf},
+slides = {sambasivan2017jb_slides.pdf},
+video = {https://www.youtube.com/watch?v=yyp3fGW2ZX4},
 keywords = {BGP; Control plane; Extensibility; Evolvability; Routing}}
 
 
@@ -58,7 +65,9 @@ publisher = {ACM},
 pages = {401-414}, 
 year = {2016}, 
 month = {October},
-abstract = {Workflow-centric tracing captures the workflow of causally- related events (e.g., work done to process a request) within and among the components of a distributed system. As distributed systems grow in scale and complexity, such tracing is becoming a critical tool for understanding distributed system behavior. Yet, there is a fundamental lack of clarity about how such infrastructures should be designed to provide maximum benefit for important management tasks, such as resource ac- counting and diagnosis. Without research into this important issue, there is a danger that workflow-centric tracing will not reach its full potential. To help, this paper distills the design space of workflow-centric tracing and describes key design choices that can help or hinder a tracing infrastructure’s utility for important tasks. Our design space and the design choices we suggest are based on our experiences developing several previous workflow-centric tracing infrastructures.}, 
+abstract = {Workflow-centric tracing captures the workflow of causally- related events (e.g., work done to process a request) within and among the components of a distributed system. As distributed systems grow in scale and complexity, such tracing is becoming a critical tool for understanding distributed system behavior. Yet, there is a fundamental lack of clarity about how such infrastructures should be designed to provide maximum benefit for important management tasks, such as resource ac- counting and diagnosis. Without research into this important issue, there is a danger that workflow-centric tracing will not reach its full potential. To help, this paper distills the design space of workflow-centric tracing and describes key design choices that can help or hinder a tracing infrastructure’s utility for important tasks. Our design space and the design choices we suggest are based on our experiences developing several previous workflow-centric tracing infrastructures.},
+pdf = {sambasivan2016bo_paper.pdf},
+slides = {sambasivan2016bo_slides.pdf},
 keywords = {}}
 
 
