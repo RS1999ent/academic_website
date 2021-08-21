@@ -84,7 +84,8 @@ address = {Pittsburgh, PA, USA},
 pages = {}, 
 year = {2016}, 
 month = {June},
-abstract = {It is extremely difficult to utilize new routing protocols in today’s Internet. As a result, the Internet’s baseline inter-domain protocol for connectivity (BGP) has remained largely unchanged, despite known significant flaws. The difficulty of using new protocols has also depressed opportunities for (currently commoditized) transit providers to provide value-added routing services. To help, this paper proposes Darwin’s BGP (D-BGP), a modified version of BGP that can support evolvability to new protocols. D-BGP modifies BGP’s advertisements and advertisement processing based on requirements imposed by key evolvability scenarios, which we identified via analyses of recently- proposed routing protocols.}, 
+abstract = {It is extremely difficult to utilize new routing protocols in today’s Internet. As a result, the Internet’s baseline inter-domain protocol for connectivity (BGP) has remained largely unchanged, despite known significant flaws. The difficulty of using new protocols has also depressed opportunities for (currently commoditized) transit providers to provide value-added routing services. To help, this paper proposes Darwin’s BGP (D-BGP), a modified version of BGP that can support evolvability to new protocols. D-BGP modifies BGP’s advertisements and advertisement processing based on requirements imposed by key evolvability scenarios, which we identified via analyses of recently- proposed routing protocols.},
+pdf = {sambasivan2016ta_techreport.pdf},
 keywords = {}}
 
 
@@ -99,9 +100,11 @@ publisher = {ACM},
 pages = {}, 
 year = {2015}, 
 month = {July},
-abstract = {It is extremely difficult to deploy new inter-domain routing pro- tocols in today’s Internet. As a result, the Internet’s baseline pro- tocol for connectivity, BGP, has remained largely unchanged, despite known significant flaws. The difficulty of deploying new protocols has also depressed opportunities for (currently commoditized) transit providers to provide value-added rout- ing services. To help, we identify the key deployment models under which new protocols are introduced and the require- ments each poses for enabling their usage goals. Based on these requirements, we argue for two modifications to BGP that will greatly improve support for new routing protocols.}, 
+abstract = {It is extremely difficult to deploy new inter-domain routing pro- tocols in today’s Internet. As a result, the Internet’s baseline pro- tocol for connectivity, BGP, has remained largely unchanged, despite known significant flaws. The difficulty of deploying new protocols has also depressed opportunities for (currently commoditized) transit providers to provide value-added rout- ing services. To help, we identify the key deployment models under which new protocols are introduced and the require- ments each poses for enabling their usage goals. Based on these requirements, we argue for two modifications to BGP that will greatly improve support for new routing protocols.},
+pdf = {sambasivan2015il_paper.pdf},
+slides = {sambasivan2015il_slides.pdf},
+video = {https://youtu.be/SZnrCRnXznM},
 keywords = {}}
-
 
 
 @techreport{Sambasivan:2014va,
@@ -116,8 +119,23 @@ address = {},
 pages = {}, 
 year = {2014}, 
 month = {April},
-abstract = {End-to-end tracing captures the workflow of causally-related activity (e.g., work done to process a request) within and among the components of a distributed system. As distributed systems grow in scale and complexity, such tracing is becoming a critical tool for management tasks like diagnosis and resource accounting. Drawing upon our experiences building and using end-to-end tracing infrastructures, this paper distills the key design axes that dictate trace utility for important use cases. Developing tracing infrastructures without explicitly understanding these axes and choices for them will likely result in infrastructures that are not useful for their intended purposes. In addition to identifying the design axes, this paper identifies good design choices for various tracing use cases, contrasts them to choices made by previous tracing implementations, and shows where prior implementations fall short. It also identifies remaining challenges on the path to making tracing an integral part of distributed system design.}, 
+abstract = {End-to-end tracing captures the workflow of causally-related activity (e.g., work done to process a request) within and among the components of a distributed system. As distributed systems grow in scale and complexity, such tracing is becoming a critical tool for management tasks like diagnosis and resource accounting. Drawing upon our experiences building and using end-to-end tracing infrastructures, this paper distills the key design axes that dictate trace utility for important use cases. Developing tracing infrastructures without explicitly understanding these axes and choices for them will likely result in infrastructures that are not useful for their intended purposes. In addition to identifying the design axes, this paper identifies good design choices for various tracing use cases, contrasts them to choices made by previous tracing implementations, and shows where prior implementations fall short. It also identifies remaining challenges on the path to making tracing an integral part of distributed system design.},
+pdf = {sambasivan2014va_techreport.pdf},
 keywords = {}}
+
+@inproceedings{Shafer:2013ab,
+bibtex_show={true},
+author = {Shafer, Ilari and Sambasivan, Raja R and Rowe, Anthony and Ganger, Gregory R}, 
+title = {Specialized storage for big numeric time series}, 
+booktitle = {USENIX Workshop on Hot Topics in Storage (HotStorage)}, 
+publisher = {USENIX Association}, 
+pages = {}, 
+year = {2013}, 
+month = {},
+abstract = {Numeric time series data has unique storage requirements and access patterns that can benefit from specialized support, given its importance in Big Data analyses. Popular frameworks and databases focus on addressing other needs, making them a suboptimal fit. This paper describes the support needed for numeric time series, suggests an architecture for efficient time series storage, and illustrates its potential for satisfying key requirements.},
+pdf = {shafer2013ab_.pdf},
+keywords = {}}
+
 
 
 
@@ -133,7 +151,8 @@ address = {Pittsburgh, PA, USA},
 pages = {}, 
 year = {2013}, 
 month = {April},
-abstract = {Distributed systems are complex to develop and administer, and performance problem diagnosis is particularly challenging. When performance degrades, the problem might be in any of the system’s many components or could be a result of poor interactions among them. Recent research efforts have created tools that automatically localize the problem to a small number of potential culprits, but effective visualizations are needed to help developers understand and explore their results. This paper compares side-by-side, diff, and animation-based approaches for visualizing the results of one proven automated localization technique called request-flow comparison. Via a 26-person user study, which included real distributed systems developers, we identify the unique benefits that each approach provides for different usage modes and problem types.}, 
+abstract = {Distributed systems are complex to develop and administer, and performance problem diagnosis is particularly challenging. When performance degrades, the problem might be in any of the system’s many components or could be a result of poor interactions among them. Recent research efforts have created tools that automatically localize the problem to a small number of potential culprits, but effective visualizations are needed to help developers understand and explore their results. This paper compares side-by-side, diff, and animation-based approaches for visualizing the results of one proven automated localization technique called request-flow comparison. Via a 26-person user study, which included real distributed systems developers, we identify the unique benefits that each approach provides for different usage modes and problem types.},
+pdf = {sambasivan2013tq_techreport.pdf},
 keywords = {}}
 
 
@@ -151,7 +170,9 @@ number = {12},
 pages = {2466–2475}, 
 year = {2013}, 
 abstract = {Distributed systems are complex to develop and administer, and performance problem diagnosis is particularly challenging. When performance degrades, the problem might be in any of the system’s many components or could be a result of poor interactions among them. Recent research efforts have created tools that automatically localize the problem to a small number of potential culprits, but research is needed to understand what visualization techniques work best for helping distributed systems developers understand and explore their results. This paper compares the relative merits of three well-known visualization approaches (side-by-side, diff, and animation) in the context of presenting the results of one proven automated localization technique called request-flow comparison. Via a 26-person user study, which included real distributed systems developers, we identify the unique benefits that each approach provides for different problem types and usage modes.}, 
-location = {New York, NY, USA}, 
+location = {New York, NY, USA},
+pdf = {sambasivan2013gn_paper.pdf},
+slides = {sambasivan2013gn_slides.pdf},
 keywords = {}}
 
 
@@ -167,7 +188,8 @@ address = {Pittsburgh, PA, USA},
 pages = {}, 
 year = {2013}, 
 month = {May},
-abstract = {Diagnosing performance problems in modern datacenters and distributed systems is challenging, as the root cause could be contained in any one of the system’s numerous components or, worse, could be a result of interactions among them. As distributed systems continue to increase in complexity, di- agnosis tasks will only become more challenging. There is a need for a new class of diagnosis techniques capable of helping developers address problems in these distributed environments.As a step toward satisfying this need, this dissertation proposes a novel technique, called request-flow comparison, for automatically localizing the sources of performance changes from the myriad potential culprits in a distributed system to just a few potential ones. Request-flow comparison works by contrasting the workflow of how individual requests are serviced within and among every component of the distributed system between two periods: a non-problem period and a problem period. By identifying and ranking performance-affecting changes, request-flow comparison provides developers with promising starting points for their diagnosis efforts. Request workflows are obtained with less than 1\% overhead via use of recently developed end-to-end tracing techniques.  To demonstrate the utility of request-flow comparison in various distributed systems, this dissertation describes its implementation in a tool called Spectroscope and describes how Spectroscope was used to diagnose real, previously unsolved problems in the Ursa Minor distributed storage service and in select Google services. It also explores request-flow comparison’s applicability to the Hadoop File System. Via a 26-person user study, it identifies effective visualiza- tions for presenting request-flow comparison’s results and further demonstrates that request-flow comparison helps developers quickly identify starting points for diagnosis. This dissertation also distills design choices that will maximize an end-to-end tracing infrastructure’s utility for diagnosis tasks and other use cases.}, 
+abstract = {Diagnosing performance problems in modern datacenters and distributed systems is challenging, as the root cause could be contained in any one of the system’s numerous components or, worse, could be a result of interactions among them. As distributed systems continue to increase in complexity, di- agnosis tasks will only become more challenging. There is a need for a new class of diagnosis techniques capable of helping developers address problems in these distributed environments.As a step toward satisfying this need, this dissertation proposes a novel technique, called request-flow comparison, for automatically localizing the sources of performance changes from the myriad potential culprits in a distributed system to just a few potential ones. Request-flow comparison works by contrasting the workflow of how individual requests are serviced within and among every component of the distributed system between two periods: a non-problem period and a problem period. By identifying and ranking performance-affecting changes, request-flow comparison provides developers with promising starting points for their diagnosis efforts. Request workflows are obtained with less than 1\% overhead via use of recently developed end-to-end tracing techniques.  To demonstrate the utility of request-flow comparison in various distributed systems, this dissertation describes its implementation in a tool called Spectroscope and describes how Spectroscope was used to diagnose real, previously unsolved problems in the Ursa Minor distributed storage service and in select Google services. It also explores request-flow comparison’s applicability to the Hadoop File System. Via a 26-person user study, it identifies effective visualiza- tions for presenting request-flow comparison’s results and further demonstrates that request-flow comparison helps developers quickly identify starting points for diagnosis. This dissertation also distills design choices that will maximize an end-to-end tracing infrastructure’s utility for diagnosis tasks and other use cases.},
+pdf = {sambasivan2013uz_dissertation.pdf},
 keywords = {}}
 
 
@@ -184,7 +206,8 @@ address = {Pittsburgh, PA, USA},
 pages = {}, 
 year = {2012}, 
 month = {May},
-abstract = {Distributed systems are complex to develop and administer, and performance problem diagnosis is particularly challenging. When performance decreases, the problem might be in any of the system’s many components or could be a result of poor interactions among them. Recent research has provided the ability to automatically identify a small set of most likely problem locations, leaving the diagnoser with the task of exploring just that set. This paper describes and evaluates three approaches for visualizing the results of a proven technique called “request-flow comparison” for identifying likely causes of performance decreases in a distributed system. Our user study provides a number of insights useful in guiding visualization tool design for distributed system diagnosis. For example, we find that both an overlay-based approach (e.g., diff) and a side-by-side approach are effective, with tradeoffs for different users (e.g., expert vs. not) and different problem types. We also find that an animation-based approach is confusing and difficult to use.}, 
+abstract = {Distributed systems are complex to develop and administer, and performance problem diagnosis is particularly challenging. When performance decreases, the problem might be in any of the system’s many components or could be a result of poor interactions among them. Recent research has provided the ability to automatically identify a small set of most likely problem locations, leaving the diagnoser with the task of exploring just that set. This paper describes and evaluates three approaches for visualizing the results of a proven technique called “request-flow comparison” for identifying likely causes of performance decreases in a distributed system. Our user study provides a number of insights useful in guiding visualization tool design for distributed system diagnosis. For example, we find that both an overlay-based approach (e.g., diff) and a side-by-side approach are effective, with tradeoffs for different users (e.g., expert vs. not) and different problem types. We also find that an animation-based approach is confusing and difficult to use.},
+pdf = {sambasivan2012tq_techreport.pdf},
 keywords = {}}
 
 
@@ -199,8 +222,28 @@ publisher = {USENIX Association},
 pages = {}, 
 year = {2012}, 
 month = {June},
-abstract = {Automated management is critical to the success of cloud computing, given its scale and complexity. But, most sys- tems do not satisfy one of the key properties required for automation: predictability, which in turn relies upon low variance. Most automation tools are not e?ective when variance is consistently high. Using automated perfor- mance diagnosis as a concrete example, this position pa- per argues that for automation to become a reality, system builders must treat variance as an important metric and make conscious decisions about where to reduce it. To help with this task, we describe a framework for reason- ing about sources of variance in distributed systems and describe an example tool for helping identify them.}, 
+abstract = {Automated management is critical to the success of cloud computing, given its scale and complexity. But, most sys- tems do not satisfy one of the key properties required for automation: predictability, which in turn relies upon low variance. Most automation tools are not e?ective when variance is consistently high. Using automated perfor- mance diagnosis as a concrete example, this position pa- per argues that for automation to become a reality, system builders must treat variance as an important metric and make conscious decisions about where to reduce it. To help with this task, we describe a framework for reason- ing about sources of variance in distributed systems and describe an example tool for helping identify them.},
+pdf = {sambasivan2012wv_paper.pdf},
+slides = {sambasivan2012wv_slides.pdf},
+video = {https://youtu.be/hdk3jaQiXtM},
 keywords = {}}
+
+@inproceedings{Sambasivan2011vw,
+bibtex_show={true},
+abbr={NSDI},
+author = {Sambasivan, Raja R and Zheng, Alice X and De Rosa, Michael and Krevat, Elie and Whitman, Spencer and Stroucken, Michael and Wang, William and Xu, Lianghong and Ganger, Gregory R}, 
+title = {Diagnosing performance changes by comparing request flows}, 
+booktitle = {USENIX Conference on Networked Systems Design and Implementation (NSDI)}, 
+publisher = {USENIX Association}, 
+pages = {43-56}, 
+year = {2011}, 
+month = {March},
+abstract = {The causes of performance changes in a distributed system often elude even its developers. This paper de- velops a new technique for gaining insight into such changes: comparing request flows from two executions (e.g., of two system versions or time periods). Build- ing on end-to-end request-flow tracing within and across components, algorithms are described for identifying and ranking changes in the flow and/or timing of request pro- cessing. The implementation of these algorithms in a tool called Spectroscope is evaluated. Six case studies are presented of using Spectroscope to diagnose perfor- mance changes in a distributed storage service caused by code changes, configuration modifications, and compo- nent degradations, demonstrating the value and efficacy of comparing request flows. Preliminary experiences of using Spectroscope to diagnose performance changes within select Google services are also presented.},
+pdf = {sambasivan2011vw_paper.pdf},
+slides = {sambasivan2011vw_slides.pdf},
+video = {https://youtu.be/vANwvkJ-_Q8},
+keywords = {}}
+
 
 @techreport{Sambasivan2011:ab,
 bibtex_show={true},
@@ -214,7 +257,22 @@ address = {Pittsburgh, PA},
 pages = {}, 
 year = {2011}, 
 month = {January},
-abstract = {Automated management seems a must, as distributed systems and datacenters continue to grow in scale and complexity. But, automation of performance problem diagnosis and tuning relies upon predictability, which in turn relies upon low variance—most automation tools aren’t effective when variance is regularly high. This paper argues that, for automation to become a reality, system builders must treat variance as an important metric and make conscious decisions about where to reduce it. To help with this task, we describe a framework for understanding sources of variance and describe an example tool for helping identify them.}, 
+abstract = {Automated management seems a must, as distributed systems and datacenters continue to grow in scale and complexity. But, automation of performance problem diagnosis and tuning relies upon predictability, which in turn relies upon low variance—most automation tools aren’t effective when variance is regularly high. This paper argues that, for automation to become a reality, system builders must treat variance as an important metric and make conscious decisions about where to reduce it. To help with this task, we describe a framework for understanding sources of variance and describe an example tool for helping identify them.},
+pdf = {sambasivan2011ab_techreport.pdf},
+keywords = {}}
+
+
+@inproceedings{Sinnamohideen:2010a,
+bibtex_show={true},
+author = {Sinnamohideen, Shafeeq and Sambasivan, Raja R and Hendricks, James and Liu, Likun and Ganger, Gregory R}, 
+title = {A transparently-scalable metadata service for the ursa minor storage system.}, 
+booktitle = {USENIX Annual Technical Conference (ATC)}, 
+publisher = {USENIX Association}, 
+pages = {}, 
+year = {2010}, 
+month = {June},
+abstract = {The metadata service of the Ursa Minor distributed storage system scales metadata throughput as metadata servers are added. While doing so, it correctly handles metadata operations that involve items served by dif- ferent metadata servers, consistently and atomically up- dating the items. Unlike previous systems, it does so by reusing existing metadata migration functionality to avoid complex distributed transaction protocols. It also assigns item IDs to minimize the occurrence of multi- server operations. Ursa Minor’s approach allows one to implement a desired feature with less complexity than al- ternative methods and with minimal performance penalty (under 1\% in non-pathological cases).},
+pdf = {sinamohideen2010ab_paper.pdf},
 keywords = {}}
 
 
@@ -227,7 +285,8 @@ title = {Managing execution of database queries},
 number = {US2010/0082503A1}, 
 year = {2010}, 
 month = {April},
-abstract = {One embodiment is a method to manage queries in a database. The method identified a query that executes on the database for an elapsed time that is greater than a threshold and then implements a remdial action when the query executes on the database for an execution time that is greater than an estimated execution time.}, 
+abstract = {One embodiment is a method to manage queries in a database. The method identified a query that executes on the database for an elapsed time that is greater than a threshold and then implements a remdial action when the query executes on the database for an execution time that is greater than an estimated execution time.},
+pdf = {krompass2010uz_patent.pdf},
 keywords = {}}
 
 
@@ -244,7 +303,8 @@ address = {},
 pages = {}, 
 year = {2010}, 
 month = {February},
-abstract = {Spectroscope is a new toolset aimed at assisting developers with the long-standing challenge of performance debugging in dis- tributed systems. To do so, it mines end-to-end traces of request processing within and across components. Using Spectroscope, developers can visualize and compare system behaviours between two periods or system versions, identifying and ranking various changes in the flow or timing of request processing. Examples of how Spectroscope has been used to diagnose real performance problems seen in a distributed storage system are presented, and Spectroscope’s primary assumptions and algorithms are evaluated.}, 
+abstract = {Spectroscope is a new toolset aimed at assisting developers with the long-standing challenge of performance debugging in dis- tributed systems. To do so, it mines end-to-end traces of request processing within and across components. Using Spectroscope, developers can visualize and compare system behaviours between two periods or system versions, identifying and ranking various changes in the flow or timing of request processing. Examples of how Spectroscope has been used to diagnose real performance problems seen in a distributed storage system are presented, and Spectroscope’s primary assumptions and algorithms are evaluated.},
+pdf = {sambasivan2010cd_techreport.pdf},
 keywords = {}}
 
 
@@ -261,7 +321,8 @@ address = {Pittsburgh, PA, USA},
 pages = {}, 
 year = {2010}, 
 month = {July},
-abstract = {The causes of performance changes in a distributed system often elude even its developers. This paper develops a new technique for gaining insight into such changes: comparing system behaviours from two executions (e.g., of two system versions or time periods). Building on end-to-end request flow tracing within and across components, algorithms are described for identifying and ranking changes in the flow and/or timing of request processing. The implementation of these algorithms in a tool called Spectroscope is described and evaluated. Five case studies are presented of using Spectroscope to diagnose performance changes in a distributed storage system caused by code changes and configuration modifications, demonstrating the value and efficacy of comparing system behaviours.}, 
+abstract = {The causes of performance changes in a distributed system often elude even its developers. This paper develops a new technique for gaining insight into such changes: comparing system behaviours from two executions (e.g., of two system versions or time periods). Building on end-to-end request flow tracing within and across components, algorithms are described for identifying and ranking changes in the flow and/or timing of request processing. The implementation of these algorithms in a tool called Spectroscope is described and evaluated. Five case studies are presented of using Spectroscope to diagnose performance changes in a distributed storage system caused by code changes and configuration modifications, demonstrating the value and efficacy of comparing system behaviours.},
+pdf = {sambasivan2010te_techreport.pdf},
 keywords = {}}
 
 
@@ -277,7 +338,8 @@ volume = {52},
 number = {4}, 
 pages = {91–96}, 
 year = {2009}, 
-abstract = {Relative fitness is a new approach to modeling the performance of storage devices (e.g., disks and RAID arrays). In contrast to a conventional model, which predicts the performance of an application’s I/O on a given device, a relative fitness model predicts performance <jats:italic>differences</jats:italic> between devices. The result is significantly more accurate predictions.}, 
+abstract = {Relative fitness is a new approach to modeling the performance of storage devices (e.g., disks and RAID arrays). In contrast to a conventional model, which predicts the performance of an application’s I/O on a given device, a relative fitness model predicts performance <jats:italic>differences</jats:italic> between devices. The result is significantly more accurate predictions.},
+pdf = {mesnier2019jw_paper.pdf},
 location = {}, 
 keywords = {}}
 
@@ -294,7 +356,8 @@ publisher = {ACM},
 pages = {37-48}, 
 year = {2007}, 
 month = {June},
-abstract = {Relative fitness is a new black-box approach to modeling the performance of storage devices. In contrast with an absolute model that predicts the performance of a workload on a given storage device, a relative fitness model predicts per- formance differences between a pair of devices. There are two primary advantages to this approach. First, because a relative fitness model is constructed for a device pair, the application-device feedback of a closed workload can be cap- tured (e.g., how the I/O arrival rate changes as the workload moves from device A to device B). Second, a relative fitness model allows performance and resource utilization to be used in place of workload characteristics. This is beneficial when workload characteristics are difficult to obtain or concisely express (e.g., rather than describe the spatio-temporal char- acteristics of a workload, one could use the observed cache behavior of device A to help predict the performance of B).This paper describes the steps necessary to build a relative fitness model, with an approach that is general enough to be used with any black-box modeling technique. We compare relative fitness models and absolute models across a vari- ety of workloads and storage devices. On average, relative fitness models predict bandwidth and throughput within 10– 20\% and can reduce prediction error by as much as a factor of two when compared to absolute models.}, 
+abstract = {Relative fitness is a new black-box approach to modeling the performance of storage devices. In contrast with an absolute model that predicts the performance of a workload on a given storage device, a relative fitness model predicts per- formance differences between a pair of devices. There are two primary advantages to this approach. First, because a relative fitness model is constructed for a device pair, the application-device feedback of a closed workload can be cap- tured (e.g., how the I/O arrival rate changes as the workload moves from device A to device B). Second, a relative fitness model allows performance and resource utilization to be used in place of workload characteristics. This is beneficial when workload characteristics are difficult to obtain or concisely express (e.g., rather than describe the spatio-temporal char- acteristics of a workload, one could use the observed cache behavior of device A to help predict the performance of B).This paper describes the steps necessary to build a relative fitness model, with an approach that is general enough to be used with any black-box modeling technique. We compare relative fitness models and absolute models across a vari- ety of workloads and storage devices. On average, relative fitness models predict bandwidth and throughput within 10– 20\% and can reduce prediction error by as much as a factor of two when compared to absolute models.},
+pdf = {mesnier2007dy_paper.pdf},
 keywords = {}}
 
 
@@ -309,7 +372,37 @@ publisher = {USENIX},
 pages = {}, 
 year = {2007}, 
 month = {June},
-abstract = {Making request flow tracing an integral part of soft- ware systems creates the potential to better understand their operation. The resulting traces can be converted to per- request graphs of the work performed by a service, repre- senting the flow and timing of each request’s processing. Collectively, these graphs contain detailed and comprehen- sive data about the system’s behavior and the workload that induced it, leaving the challenge of extracting insights. Categorizing and differencing such graphs should greatly improve our ability to understand the runtime behavior of complex distributed services and diagnose problems. Clus- tering the set of graphs can identify common request pro- cessing paths and expose outliers. Moreover, clustering two sets of graphs can expose differences between the two; for example, a programmer could diagnose a problem that arises by comparing current request processing with that of an earlier non-problem period and focusing on the aspects that change. Such categorizing and differencing of system behavior can be a big step in the direction of automated problem diagnosis.}, 
+abstract = {Making request flow tracing an integral part of soft- ware systems creates the potential to better understand their operation. The resulting traces can be converted to per- request graphs of the work performed by a service, repre- senting the flow and timing of each request’s processing. Collectively, these graphs contain detailed and comprehen- sive data about the system’s behavior and the workload that induced it, leaving the challenge of extracting insights. Categorizing and differencing such graphs should greatly improve our ability to understand the runtime behavior of complex distributed services and diagnose problems. Clus- tering the set of graphs can identify common request pro- cessing paths and expose outliers. Moreover, clustering two sets of graphs can expose differences between the two; for example, a programmer could diagnose a problem that arises by comparing current request processing with that of an earlier non-problem period and focusing on the aspects that change. Such categorizing and differencing of system behavior can be a big step in the direction of automated problem diagnosis.},
+pdf = {sambasivan2007uh_paper.pdf},
+keywords = {}}
+
+
+@inproceedings{Mesnier:2007ab,
+bibtex_show={true},
+author = {Mesnier, Michael P and Wachs, Matthew and Simbasivan, Raja R and Lopez, Julio and Hendricks, James and Ganger, Gregory R and O’hallaron, David R}, 
+title = {// Trace: Parallel trace replay with approximate causal events}, 
+booktitle = {USENIX Conference on File and Storage Technologies}, 
+publisher = {Carnegie Mellon University}, 
+pages = {}, 
+year = {2007}, 
+month = {February},
+abstract = {//TRACE1 is a new approach for extracting and replaying traces of parallel applications to recreate their I/O behav- ior. Its tracing engine automatically discovers inter-node data dependencies and inter-I/O compute times for each node (process) in an application. This information is re- flected in per-node annotated I/O traces. Such annota- tion allows a parallel replayer to closely mimic the be- havior of a traced application across a variety of stor- age systems. When compared to other replay mecha- nisms, //TRACE offers significant gains in replay accu- racy. Overall, the average replay error for the parallel applications evaluated in this paper is below 6%.},
+pdf = {mesnier2007ab_paper.pdf},
+keywords = {}}
+
+
+@article{AbdelMalek:2006ab,
+bibtex_show={true},
+author = {Abd-El-Malek, Michael and Courtright II, William V and Cranor, Chuck and Ganger, Gregory R and Hendricks, James and Klosterman, Andrew J and Mesnier, Michael P and Prasad, Manish and Salmon, Brandon and Sambasivan, Raja R}, 
+editor = {}, 
+title = {Early experiences on the journey towards self-* storage.}, 
+journal = {IEEE Data Engineering Bulletin}, 
+volume = {29}, 
+number = {3}, 
+pages = {55–62}, 
+year = {2006}, 
+abstract = {Self-* systems are self-organizing, self-configuring, self-healing, self-tuning and, in general, self- managing. Ursa Minor is a large-scale storage infrastructure being designed and deployed at Carnegie Mellon University, with the goal of taking steps towards the self-* ideal. This paper discusses our early experiences with one specific aspect of storage management: performance tuning and projection. Ursa Minor uses self-monitoring and rudimentary system modeling to support analysis of how system changes would affect performance, exposing simple What.if query interfaces to administrators and tuning agents. We find that most performance predictions are sufficiently accurate (within 10-20\%) and that the associated performance overhead is less than 6\%. Such embedded support for What.if queries simplifies tuning automation and reduces the administrator expertise needed to make acquisition decisions.}, 
+pdf = {abdelmalek2006ab_paper.pdf},
 keywords = {}}
 
 
@@ -326,7 +419,8 @@ address = {Pittsburgh, PA, USA},
 pages = {}, 
 year = {2006}, 
 month = {May},
-abstract = {This paper proposes architectural refinements, server-driven metadata prefetching and namespace flattening, for improving the efficiency of small file workloads in object-based storage systems. Server-driven metadata prefetching consists of having the metadata server provide information and capabilities for multiple objects, rather than just one, in response to each lookup. Doing so allows clients to access the contents of many small files for each metadata server interaction, reducing access latency and metadata server load. Namespace flattening encodes the directory hierarchy into object IDs such that namespace locality translates to object ID similarity. Doing so exposes namespace relationships among objects (e.g., as hints to storage devices), improves locality in metadata indices, and enables use of ranges for exploiting them. Trace-driven simulations and experiments with a prototype implementation show significant performance benefits for small file workloads.}, 
+abstract = {This paper proposes architectural refinements, server-driven metadata prefetching and namespace flattening, for improving the efficiency of small file workloads in object-based storage systems. Server-driven metadata prefetching consists of having the metadata server provide information and capabilities for multiple objects, rather than just one, in response to each lookup. Doing so allows clients to access the contents of many small files for each metadata server interaction, reducing access latency and metadata server load. Namespace flattening encodes the directory hierarchy into object IDs such that namespace locality translates to object ID similarity. Doing so exposes namespace relationships among objects (e.g., as hints to storage devices), improves locality in metadata indices, and enables use of ranges for exploiting them. Trace-driven simulations and experiments with a prototype implementation show significant performance benefits for small file workloads.},
+pdf = {hendricks2006wn_techreport.pdf},
 keywords = {}}
 
 
@@ -343,7 +437,8 @@ address = {Pittsburgh, PA, USA},
 pages = {}, 
 year = {2006}, 
 month = {May},
-abstract = {Distributed file systems that scale by partitioning files and directories among a collection of servers inevitably encounter cross- server operations. A common exampleis a REN ME that moves afile from a directorymanaged by oneserver to a directory managed by another. Systems that provide the same semantics for cross-server operations as for those that do not span servers traditionally implement dedicated protocols for these rare operations. This paper suggests an alternate approach that exploits the existence of dynamic redistribution functionality (e.g., for load balancing, incorporation of new servers, and so on). When a client request would involve files on multiple servers, the system can redistribute those files onto one server and have it service the request. Although such redistribution is more expensive than a dedicated cross-server protocol, the rareness of such operations makes the overall performance impact minimal. Analysis of NFS traces indicates that cross-server operations make up fewer than 0.001\% of client requests, and experiments with a prototype implementation show that the performance impact is negligible when such operations make up as much as 0.01\% of operations. Thus, when dynamic redistribution functionality exists in the system, cross-server operations can be handled with little additional implementation complexity. }, 
+abstract = {Distributed file systems that scale by partitioning files and directories among a collection of servers inevitably encounter cross- server operations. A common exampleis a REN ME that moves afile from a directorymanaged by oneserver to a directory managed by another. Systems that provide the same semantics for cross-server operations as for those that do not span servers traditionally implement dedicated protocols for these rare operations. This paper suggests an alternate approach that exploits the existence of dynamic redistribution functionality (e.g., for load balancing, incorporation of new servers, and so on). When a client request would involve files on multiple servers, the system can redistribute those files onto one server and have it service the request. Although such redistribution is more expensive than a dedicated cross-server protocol, the rareness of such operations makes the overall performance impact minimal. Analysis of NFS traces indicates that cross-server operations make up fewer than 0.001\% of client requests, and experiments with a prototype implementation show that the performance impact is negligible when such operations make up as much as 0.01\% of operations. Thus, when dynamic redistribution functionality exists in the system, cross-server operations can be handled with little additional implementation complexity. },
+pdf = {hendricks2006vx_techreport.pdf},
 keywords = {}}
 
 
@@ -360,7 +455,8 @@ address = {},
 pages = {}, 
 year = {2005}, 
 month = {April},
-abstract = {No single data encoding scheme or fault model is right for all data. A versatile storage system allows these to be data-specific, so that they can be matched to access patterns, reliability requirements, and cost goals. Ursa Minor is a cluster-based storage system that allows data-specific selection of and on-line changes to encoding schemes and fault models. Thus, different data types can share a scalable storage infrastructure and still enjoy customized choices, rather than suffering from “one size fits all.” Experiments with Ursa Minor show performance penalties as high as 2–3􏰀 for workloads using poorly-matched choices. Experiments also show that a single cluster supporting multiple workloads is much more efficient when the choices are specialized rather than forced to use a “one size fits all” configuration.}, 
+abstract = {No single data encoding scheme or fault model is right for all data. A versatile storage system allows these to be data-specific, so that they can be matched to access patterns, reliability requirements, and cost goals. Ursa Minor is a cluster-based storage system that allows data-specific selection of and on-line changes to encoding schemes and fault models. Thus, different data types can share a scalable storage infrastructure and still enjoy customized choices, rather than suffering from “one size fits all.” Experiments with Ursa Minor show performance penalties as high as 2–3􏰀 for workloads using poorly-matched choices. Experiments also show that a single cluster supporting multiple workloads is much more efficient when the choices are specialized rather than forced to use a “one size fits all” configuration.},
+pdf = {ganger2005kl_techreport.pdf},
 keywords = {}}
 
 
@@ -376,7 +472,8 @@ publisher = {USENIX Association},
 pages = {}, 
 year = {2005}, 
 month = {December},
-abstract = {No single encoding scheme or fault model is optimal for all data. A versatile storage system allows them to be matched to access patterns, reliability requirements, and cost goals on a per-data item basis. Ursa Minor is a cluster-based storage system that allows data-specific selection of, and on-line changes to, encoding schemes and fault models. Thus, different data types can share a scalable storage infrastructure and still enjoy specialized choices, rather than suffering from “one size fits all.” Ex- periments with Ursa Minor show performance benefits of 2–3× when using specialized choices as opposed to a single, more general, configuration. Experiments also show that a single cluster supporting multiple workloads simultaneously is much more efficient when the choices are specialized for each distribution rather than forced to use a “one size fits all” configuration. When using the specialized distributions, aggregate cluster through- put nearly doubled.}, 
+abstract = {No single encoding scheme or fault model is optimal for all data. A versatile storage system allows them to be matched to access patterns, reliability requirements, and cost goals on a per-data item basis. Ursa Minor is a cluster-based storage system that allows data-specific selection of, and on-line changes to, encoding schemes and fault models. Thus, different data types can share a scalable storage infrastructure and still enjoy specialized choices, rather than suffering from “one size fits all.” Ex- periments with Ursa Minor show performance benefits of 2–3× when using specialized choices as opposed to a single, more general, configuration. Experiments also show that a single cluster supporting multiple workloads simultaneously is much more efficient when the choices are specialized for each distribution rather than forced to use a “one size fits all” configuration. When using the specialized distributions, aggregate cluster through- put nearly doubled.},
+pdf = {abdelmalek2005wx_paper.pdf},
 keywords = {}}
 
 
@@ -392,8 +489,29 @@ publisher = {IEEE},
 pages = {361-370}, 
 year = {2005}, 
 month = {September},
-abstract = {Layered clustering offers cluster-like load balancing for unmodified NFS or CIFS servers. Read requests sent to a busy server can be offloaded to other servers holding replicas of the accessed files. This paper explores a key design question for this approach; which files should be replicated? We find that the popular policy of replicating read-only files offers little benefit. A policy that replicates read-only portions of read-mostly files, however, implicitly coordinates with client cache invalidations and thereby allows almost all read operations to be offloaded. In a read-heavy trace, 75\% of all operations and 52\% of all data transfers can be offloaded.}, 
+abstract = {Layered clustering offers cluster-like load balancing for unmodified NFS or CIFS servers. Read requests sent to a busy server can be offloaded to other servers holding replicas of the accessed files. This paper explores a key design question for this approach; which files should be replicated? We find that the popular policy of replicating read-only files offers little benefit. A policy that replicates read-only portions of read-mostly files, however, implicitly coordinates with client cache invalidations and thereby allows almost all read operations to be offloaded. In a read-heavy trace, 75\% of all operations and 52\% of all data transfers can be offloaded.},
+pdf = {sambasivan2005hb_paper.pdf},
 keywords = {}}
+
+
+@techreport{Gibson:2005ab,
+bibtex_show={true},
+abbr={TechReport},
+author = {Kim, Jangwoo Kim and Nurvitadhi, Eriko and Chung, Eric and Nizhnert, Alex and Biggadike, Andrew and Chamcham, Jad and Sridhar, Srinath and Stylos, Jeffrey and Zeilberger, Noam and Economou, Gregg and Sambasivan, Raja R. Wong, Terrence and Shi, Elaine and Lu, Yong and Reid, Matt and Palekar, Amber and Iyer, Rahul}, 
+title = {Selected project reports, spring 2005 advanced os \& distributed systems (15-712)}, 
+type = {Computer Science Technical Report}, 
+number = {CMU-CS-05-138}, 
+publisher = {Carnegie Mellon University}, 
+address = {Pittsburgh, PA}, 
+pages = {}, 
+year = {2005}, 
+month = {May},
+abstract = {This technical report contains six final project reports contributed by participants in CMU’s Spring 2005 Advanced Operating Systems and Distributed Systems course (15-712) offered by professor Garth Gibson. This course examines the design and analysis of various aspects of operating systems and distributed systems through a series of background lectures, paper readings, and group projects. Projects were done in groups of two or three, required some kind of implementation and evalution pertaining to the classrom material, but with the topic of these projects left up to each group. Final reports were held to the standard of a systems conference paper submission; a standard well met by the majority of completed projects. Some of the projects will be extended for future submissions to major system conferences.
+The reports that follow cover a broad range of topics. These reports present a characterization of synchronization behavior and overhead in commercial databases, and a hardware-based lock predictor based on the characterization; design and implementation of a partitioned protocol offload architecture that provides Direct Data Placement (DDP) functionality and better utilizes both the network interface and the host CPU; design and implementation of file indexing inside file systems for fast content searching support; comparison-based server verification techniques for stateful and semi-deterministic protocols such as NFSv4; data-plane protection techniques for link-state routing protocols such as OSPF, which is resilient to the existence of compromised routers; and performance comparison of in-band and out-of-band data access strategies in file systems.
+While not all of these reports report definitely and positively, all are worth reading because they involve novelty in the systems explored and bring forth interesting research questions.},
+pdf = {gibson2005ab_techreport.pdf},
+keywords = {}}
+
 
 
 
