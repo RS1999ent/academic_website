@@ -22,11 +22,13 @@ nav: true
 # courses at CMU
 ---
 
-* **CS 15-719: Advanced Cloud Computing (Fall 2013)**__
-  Cloud-computing concepts and technologies w/projects in AWS.  About 35 students.
+* **CS 15-719: Advanced Cloud Computing (Fall 2013)**  
+  Cloud-computing concepts and technologies w/projects in AWS.  About
+  35 students.
   
 * **ECE 18-746: Advanced Storage Systems (Spring 2010, Spring
-  2005)**__ Covers basic storage technologies and file systems.  10-30
+  2005)**  
+  Covers basic storage technologies and file systems.  10-30
   students.  Served as TA while in graduate school.
   
   
