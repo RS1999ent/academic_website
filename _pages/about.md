@@ -57,3 +57,23 @@ strip. In the strip, I ask CS PhD students to wear lab coats to work
 so that folks will know that we are researchers too <i class="fas
 fa-grin-tongue"></i>.  Don't forget to pop on a pair of lab goggles
 when debugging!
+
+
+## research opportunities
+
+**Prospective PhDs**: I recruit one to two PhD students per year to
+work in the [D.O.C.C. Lab](https://docclab.cs.tufts.edu) on projects
+broadly related to systems and networking.  I look for students who
+are curious, have strong technical skills, communicate well, and like
+exploring (slightly) crazy ideas.  If you are interested, apply to
+Tufts CS and send me an email.  The application deadline is December
+15th.
+
+**Tufts undergrads**: The D.O.C.C Lab hosts a few undergrads every
+year.  If you are interested, send me an email.  It helps if you have
+already taken Cloud Computing (CS 118) or Networking (CS 112).
+
+
+
+
+

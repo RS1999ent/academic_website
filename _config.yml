@@ -73,7 +73,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Blogo  # your blog must have a name for it to show up in the nav bar
+blog_name: # Blogo  # your blog must have a name for it to show up in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
@@ -95,7 +95,7 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  projects:
+  projects: 
     output: true
     permalink: /projects/:path/
 
@@ -126,6 +126,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - blog   # added to exclude blog
 keep_files:
   - CNAME
   - .nojekyll

@@ -2,8 +2,16 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
-// Typography
+// Raja: Typography
+// Comment in to add Fira Sans
+// p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
+//    color: var(--global-text-color);
+//    font-family: 'Fira Sans', Roboto, Helvetica, Arial, sans-serif;
+//}
+						 
 
+// Comment out to use Fira
+// Typography
 p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
   color: var(--global-text-color);
 }
