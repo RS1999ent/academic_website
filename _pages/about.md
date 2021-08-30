@@ -64,8 +64,10 @@ forget to pop on a pair of lab goggles when debugging!
 work to work on projects broadly related to systems and networking.  I
 look for students who are curious, have strong technical skills,
 communicate well, and like exploring (slightly) crazy ideas.  If you
-are interested, please apply to Tufts CS and send me an email.  The
-application deadline is December 15th.
+are interested, please [apply to Tufts
+CS](https://gradase.admissions.tufts.edu/apply/) and send me an email.
+The application deadline is September 15th, 2021 for Spring 2022
+admission and December 15th, 2021 for Fall 2022 admission.
 
 **Tufts undergrads & Master's students**: My lab hosts a few
 undergrads & Master's students every year.  If you are interested,
