@@ -36,19 +36,22 @@ From May of 2013 to October of 2016, I was a postdoctoral researcher
 at [CMU](https://www.cs.cmu.edu).  I worked on the
 [XIA](http://www.cs.cmu.edu/~xia/) project with [Peter
 Steenkiste](https://www.cs.cmu.edu/~prs/), focusing on evolvability
-for inter-domain routing protocols.  Our SIGCOMM paper showed that two
-simple mechanisms implemented within routing protocols would allow
-them to facilitate the deployment of future inter-domain routing
-protocols.
+for inter-domain routing protocols.  Our
+[SIGCOMM](/assets/pdf/sambasivan2017jb_paper.pdf) paper showed that two simple
+mechanisms implemented within routing protocols would allow them to
+facilitate the deployment of future inter-domain routing protocols.
 
 I completed my Ph.D. at [CMU](https://www.ece.cmu.edu) in May 2013,
 advised by [Greg Ganger](https://www.ece.cmu.edu/~ganger).  My
 dissertation, "Diagnosing performance changes in distributed systems
 by comparing request flows", focused on creating distributed-tracing
 infrastructures and diagnosis tools that use them.  The resulting
-papers (HotAC, NSDI, InfoVis, SoCC) influenced industrial tracing
-efforts, such as Jaeger's trace comparisons, and has been cited over
-350 times.
+papers ([HotAC](/assets/pdf/sambasivan2007uh_paper.pdf),
+[NSDI](/assets/pdf/sambasivan2011vw_paper.pdf),
+[InfoVis](/assets/pdf/sambasivan2013gn_paper.pdf),
+[SoCC](/assets/pdf/sambasivan2016bo_paper.pdf)) influenced industrial
+tracing efforts, such as Jaeger's trace comparisons, and have been
+cited over 350 times.
 
 In my spare time, I enjoy playing tennis taking long walks, and
 exploring New England.  I am "famous" for appearing in a
