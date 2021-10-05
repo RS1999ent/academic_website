@@ -1,6 +1,22 @@
 ---
 ---
 
+@inproceedings{Toslali2021,
+bibtex_show={true},
+abbr={SoCC},
+selected={true},
+author = {Toslali, Mert and Ates, Emre and Ellis, Alex and Zhang, Zhaoqi and Huye, Darby and Liu, Lan and Puterman, Samantha and Coskun, Ayse K. and Sambasivan, Raja R.}, 
+title = {Automating instrumentation choices for performance problems in distributed applications with vaif}, 
+booktitle = {ACM Symposium on Cloud Computing}, 
+publisher = {ACM}, 
+pages = {}, 
+year = {2021}, 
+month = {November},
+abstract = {Developers use logs to diagnose performance problems in distributed applications. However, it is difficult to know a priori where logs are needed and what information in them is needed to help diagnose problems that may occur in the future. We present the Variance-driven Automated Instrumentation Framework (VAIF), which runs alongside distributed applica- tions. In response to newly-observed performance problems, VAIF automatically searches the space of possible instrumen- tation choices to enable the logs needed to help diagnose them. To work, VAIF combines distributed tracing (an enhanced form of logging) with insights about how response-time variance can be decomposed on the critical-path portions of requests’ traces. We evaluate VAIF by using it to localize performance problems in OpenStack and HDFS. We show that VAIF can localize problems related to slow code paths, resource contention, and problematic third-party code while enabling only 3-34\% of the total tracing instrumentation.}, 
+pdf = {toslali2021_paper.pdf},
+keywords = {}
+}
+
 @inproceedings{Kaynar:2019ab,
 bibtex_show={true},
 abbr = {BigData},
@@ -21,7 +37,6 @@ keywords = {}}
 @inproceedings{Ates:2019th,
 bibtex_show={true},
 abbr={SoCC},
-selected={true},
 author = {Ates, Emre and Sturmann, Lily and Toslali, Mert and Krieger, Orran and Megginson, Richard and Coskun, Ayse K and Sambasivan, Raja R.}, 
 title = {An automated, cross-layer instrumentation framework for diagnosing performance problems in distributed applications}, 
 booktitle = {ACM Symposium on Cloud Computing (SoCC)}, 
