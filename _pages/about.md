@@ -11,8 +11,8 @@ profile:
   align: right
   image: raja_cropped.jpg
   address: 
-    <p>Halligan Hall 211</p>
-    <p>161 College Ave</p>
+    <p>Joyce Cummings Center 453</p>
+    <p>177 College Ave</p>
     <p>Medford, MA 02155</p>
 
 news: true  # includes a list of news items
@@ -76,6 +76,14 @@ admission and December 15th, 2021 for Fall 2022 admission.
 undergrads & Master's students every year.  If you are interested,
 send me an email.  It helps if you have already taken or are planning
 to take Cloud Computing (CS 118) or Networking (CS 112).
+
+## scheduling meetings
+
+Seperately from class office hours, I am available for meetings with
+Tufts undergrads and Master's students between 4:30 to 5:15pm on
+Wednesdays.  Please use this
+[link](https://fantastical.app/rajasambasivan/raja-free-weekly-meeting-slots)
+to schedule a Wednesday meeting.
 
 
 
