@@ -81,9 +81,9 @@ to take Cloud Computing (CS 118) or Networking (CS 112).
 
 Seperately from class office hours, I am available for meetings with
 Tufts undergrads and Master's students between 4:30 to 5:15pm on
-Wednesdays.  Please use this
+Wednesdays and 4:30 to 5pm on Fridays.  Please use this
 [link](https://fantastical.app/rajasambasivan/raja-free-weekly-meeting-slots)
-to schedule a Wednesday meeting.
+to schedule a 15-minute meeting during those times.
 
 
 
