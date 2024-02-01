@@ -1,6 +1,35 @@
 ---
 ---
 
+@inproceedings{Huye2024,
+bibtex+show={true},
+abbr={ICPE},
+selected = {true},
+author = {Huye, Darby and Liu, Lan and Sambasivan, Raja R.},
+title = {Systemizing and mitigating topological inconsistencies in Alibaba's microservice call-graph datasets},
+booktitle = {ACM/SPEC International Conference on Performance Engineering},
+publisher = {ACM/SPEC},
+month = {May},
+year = {2024},
+abstract = {Alibaba's 2021 and 2022 microservice datasets are the only publicly
+  available sources of request-workflow traces from a large-scale
+  microservice deployment.  They have the potential to strongly
+  influence future research as they provide much-needed visibility
+  into industrial microservices' characteristics.  We conduct the first
+  systematic analyses of both datasets to help facilitate their use by
+  the community.  We find that the 2021 dataset contain numerous
+  inconsistencies preventing reconstruction of full trace topologies.
+  The 2022 dataset also suffers from inconsistencies, but at a much
+  lower rate.  Tools that strictly follow Alibaba's specs for
+  constructing traces from these datasets will silently ignore these
+  inconsistencies, misinforming researchers by creating traces of the
+  wrong sizes and shapes.  We present \casper{}, a construction method
+  that uses redundancies in the datasets to sidestep the
+  inconsistencies.  We show that constructing traces using \casper{}
+  results in different trace characteristics than other less-informed
+  methods. }
+}
+
 @inproceedings{Huye2023,
 bibtex_show={true},
 abbr={ATC},
