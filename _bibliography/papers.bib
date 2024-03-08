@@ -11,24 +11,30 @@ booktitle = {ACM/SPEC International Conference on Performance Engineering},
 publisher = {ACM/SPEC},
 month = {May},
 year = {2024},
+doi = {https://www.doi.org/10.1145/3629526.3645043},
+isbn = {979-8-4007-0444-4/24/05},
 abstract = {Alibaba's 2021 and 2022 microservice datasets are the only publicly
-  available sources of request-workflow traces from a large-scale
-  microservice deployment.  They have the potential to strongly
-  influence future research as they provide much-needed visibility
-  into industrial microservices' characteristics.  We conduct the first
-  systematic analyses of both datasets to help facilitate their use by
-  the community.  We find that the 2021 dataset contain numerous
-  inconsistencies preventing reconstruction of full trace topologies.
-  The 2022 dataset also suffers from inconsistencies, but at a much
-  lower rate.  Tools that strictly follow Alibaba's specs for
-  constructing traces from these datasets will silently ignore these
-  inconsistencies, misinforming researchers by creating traces of the
-  wrong sizes and shapes.  We present \casper{}, a construction method
-  that uses redundancies in the datasets to sidestep the
-  inconsistencies.  We show that constructing traces using \casper{}
-  results in different trace characteristics than other less-informed
-  methods. }
+available sources of request-workflow traces from a large-scale
+microservice deployment.  They have the potential to strongly
+influence future research as they provide much-needed visibility into
+industrial microservices' characteristics.  We conduct the first
+systematic analyses of both datasets to help facilitate their use by
+the community.  We find that the 2021 dataset contains numerous
+inconsistencies preventing accurate reconstruction of full trace
+topologies.  The 2022 dataset also suffers from inconsistencies, but
+at a much lower rate.  Tools that strictly follow Alibaba's specs for
+constructing traces from these datasets will silently ignore these
+inconsistencies, misinforming researchers by creating traces of the
+wrong sizes and shapes.  Tools that discard traces with inconsistencies
+will discard many traces.  We present Casper, a construction method
+that uses redundancies in the datasets to sidestep the
+inconsistencies.  Compared to an approach that discards traces with
+inconsistencies, Casper accurately reconstructs an additional
+25.5% of traces in the 2021 dataset (going from 58.32% to 83.82%)
+and an additional 12.18% in the 2022 dataset (going from 86.42% to
+98.6%).}
 }
+
 
 @inproceedings{Huye2023,
 bibtex_show={true},
