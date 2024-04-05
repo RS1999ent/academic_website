@@ -10,14 +10,15 @@ description: Computer Science Department, Tufts University.
 profile:
   align: right
   image: raja_cropped.jpg
+  image_circular: false # crops the image to make it circular
   address: 
     <p>Joyce Cummings Center 453</p>
     <p>177 College Ave</p>
     <p>Medford, MA 02155</p>
 
-news: true  # includes a list of news items
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 I am the Ankur & Mari Sahu Assistant Professor in the [Computer Science

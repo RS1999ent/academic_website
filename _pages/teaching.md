@@ -4,6 +4,7 @@ permalink: /teaching/
 title: teaching
 description: Courses I've taught and links to their websites
 nav: true
+nav_order: 6
 ---
 
 # courses at Tufts
