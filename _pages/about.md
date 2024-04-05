@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Computer Science Department, Tufts University.
+subtitle: Computer Science Department, Tufts University.
 
 [comment]: # description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
@@ -11,7 +11,7 @@ profile:
   align: right
   image: raja_cropped.jpg
   image_circular: false # crops the image to make it circular
-  address: 
+  more_info: >
     <p>Joyce Cummings Center 453</p>
     <p>177 College Ave</p>
     <p>Medford, MA 02155</p>
