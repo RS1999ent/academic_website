@@ -5,6 +5,6 @@ inline: true
 ---
 
 Our paper "[Identifying mismatches between microservice testbeds and
-industrial perceptions of micoservices](assets/pdf/seshagiri2022_paper.pdf)" was accepted to the [Journal on
+industrial perceptions of micoservices](/assets/pdf/seshagiri2022_paper.pdf)" was accepted to the [Journal on
 Systems Research (JSys)](https://www.jsys.org).  Congratulations to Vish, Darby, and
 Max :dizzy:!
