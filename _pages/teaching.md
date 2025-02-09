@@ -14,10 +14,10 @@ nav_order: 6
   This course introduces students to concepts fundamental to modern
   cloud computing.  Topics covered include network communication
   mechanisms, consensus protocols, virtualization, distributed
-  storage, and industrial cloud platforms.  The course includes
-  homeworks, readings, and projects. The course is useful for both
-  future software engineers, policy makers, and for those
-  interested in obtaining a broader understanding of this area.  
+  storage, databases, and industrial cloud platforms.  The course
+  includes homeworks, readings, and projects. It is targeted toward
+  future software engineers, policy makers, and those
+  interested in obtaining a broader understanding of this important area.  
 
 * **CS 150-DCC & 151-DCC: Debugging Cloud Computing ([Spring 2025](https://www.cs.tufts.edu/cs/151DCC)), [Spring 2024](https://www.cs.tufts.edu/cs/151DCC-2024s), [Spring 2023](https://www.cs.tufts.edu/cs/151DCC-2023s), [Spring 2022](https://www.cs.tufts.edu/cs/150DCC-2022s), [Spring 2021](https://www.cs.tufts.edu/cs/150DCC-2021s), [Fall 2019](https://www.cs.tufts.edu/cs/150DCC-2019s))**  
  This seminar class focuses on modern microservice-based distributed
