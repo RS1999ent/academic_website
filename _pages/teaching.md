@@ -26,7 +26,7 @@ nav_order: 6
  The course requires students to read research papers, critique them,
  and complete semester-long group projects.  Students can propose
  their own projects on topics related to the class or choose
- form a provided list.  
+ from a provided list.  
 
 
 # courses at Carnegie Mellon University
