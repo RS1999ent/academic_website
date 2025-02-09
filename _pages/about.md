@@ -61,7 +61,7 @@ Today, these methods are commonly used in industry under the moniker
 [SoCC](/assets/pdf/sambasivan2016bo_paper.pdf)) influenced these
 industrial efforts.
 
-In my spare time, I enjoy playing tennis taking long walks, and
+In my spare time, I enjoy playing tennis, taking long walks, and
 exploring New England.  I am "famous" for appearing in a
 [PhDComics](https://www.phdcomics.com/comics/archive.php?comicid=824)
 strip. In the strip, I ask CS PhD students to wear lab coats to work
@@ -72,8 +72,8 @@ forget to pop on a pair of lab goggles when debugging!
 ## research opportunities
 
 **Prospective PhDs**: I recruit one to two PhD students per year to
-work to work on projects broadly related to systems and networking.  I
-look for students who are curious, have strong technical skills,
+work on projects broadly related to systems and networking.  I look
+for students who are curious, have strong technical skills,
 communicate well, and like exploring (slightly) crazy ideas.  If you
 are interested, please [apply to Tufts
 CS](https://gradase.admissions.tufts.edu/apply/) and send me an email.
