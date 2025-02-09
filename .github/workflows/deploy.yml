@@ -70,7 +70,7 @@ jobs:
         uses: fjogeleit/yaml-update-action@main
         with:
           commitChange: false
-          valueFile: "_config.yml"
+          valueFile: "_config_github.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
       - name: Install and Build 🔧
@@ -82,8 +82,21 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
+      - name: Prepare SSH key 🔑
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.ID_ED25519_GITHUB_HALLIGAN_SERVERS }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -t ed25519 -p 22 linux.eecs.tufts.edu >> ~/.ssh/known_hosts
+          echo "✅ SSH key ready"
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: _site
+        env:
+          SSH_USER: 'raja'
+          SSH_HOST: 'linux.eecs.tufts.edu'
+          SSH_PORT: 22
+          SSH_TARGET_DIR: "/r/raja_www/public_html/"
+          PUBLIC_HTML: "_site/"
+        run: |
+          rsync -e "ssh -p $SSH_PORT" -P -rvzc --delete --chmod=Du=rwx,Dg=rwxs,Do=rx,Fu=rw,Fg=rw,Fo=r --perms $PUBLIC_HTML/ $SSH_USER@$SSH_HOST:$SSH_TARGET_DIR --cvs-exclude
+
