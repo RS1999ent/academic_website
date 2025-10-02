@@ -1,6 +1,50 @@
 ---
 ---
 
+@techreport{Astolfi2024,
+bibtex_show={true},
+abbr={arXiv},
+author = {Astolfi, Anthony and Silai, Vidya and Huye, Darby and Liu, Lan and Sambasivan, Raja R. and Bater, Johes},
+title = {Dynamic read \& write optimization with TurtleKV},
+number = {arXiv:2509.10714v1 [cs.DB]},
+publisher = {Cornell University},
+address = {Ithaca, NY, USA},
+pages = {}, 
+year = {2025},
+month = {September},
+doi = {https://doi.org/10.48550/arXiv.2509.10714},
+abstract = {High read and write performance is important for generic 
+key/value stores, which are fundamental to modern
+applications and databases. Yet, achieving high
+performance for both reads and writes is challenging
+due to traditionally limited memory and the
+pick-any-two-out-of-three tradeoff between memory
+use, read performance, and write
+performance. Existing state-of-the-art approaches
+limit memory usage and chose a primary dimension
+(reads or writes) for which to optimize their
+on-disk structures. They recover performance in the
+remaining dimension by other mechanisms. This
+approach limits databases' maximum performance in
+the remaining dimension and their dynamic (online)
+tunability to respond to changing workloads. We
+explore a different approach that dynamically trades
+memory for read or write performance as needed. We
+present TurtleKV, which includes a novel unbiased
+data structure for on-disk storage. It includes a
+knob that dynamically increases memory reserved for
+increasing read or write performance. When evaluated
+on YCSB, TurtleKV achieves up to 8x the write
+throughput of industry-leader RocksDB and up to 5x
+the read throughput while incurring similar space
+amplification. Compared to the state-of-the-art
+system SplinterDB, TurtleKV runs up to 40% better on
+point queries, up to 6x better on range scans and
+achieves similar write performance, while incurring
+50\% less space amplification.},
+pdf = {astolfi2025_paper.pdf}
+}
+
 @inproceedings{Huye2024,
 bibtex_show={true},
 abbr={ICPE},
